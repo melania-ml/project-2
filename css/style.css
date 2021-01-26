@@ -11,45 +11,6 @@ body{
     
 }
 
-@media(max-width: 600px){
-    .header{
-        grid-template-columns:auto 1fr auto;
-        grid-template-areas: "logo . button" "navbar navbar navbar";
-    }
-    .headerNavSignup{
-        order:1;
-    }
-    .headerNav{
-        order:2;
-    }
-    .headerNavMenu {
-        border-top:none;
-        border-bottom:3px solid #F2F2F2;
-        width:50%;
-    }
-    .headerNavMenu[data-active=true]{
-        border-bottom-color: #0065FC;
-    }
-    .headerNavMenu:hover{
-        border-bottom-color:#0065FC;
-    }
-    .searchSubmitText{
-        display:none;
-    }
-    .fa-search{
-        display:inline;
-        opacity:1;
-        position:relative;
-    }
-}
-@media screen and (min-width: 601px){
-    .header {
-        grid-template-columns: auto 1fr auto auto;
-        grid-template-areas: "logo . navbar button";
-  }
-}
-
-
 /*
 HEADER
 */
@@ -91,6 +52,43 @@ HEADER
     padding: 2rem;
     color: #0065FC;
     font-weight: 600;
+}
+
+@media(max-width: 600px){
+    .header{
+        grid-template-columns:auto 1fr auto;
+        grid-template-areas: "logo . button" "navbar navbar navbar";
+    }
+    .headerNavSignup{
+        order:1;
+    }
+    .headerNav{
+        order:2;
+    }
+    .headerNavMenu {
+        border-top:none;
+        border-bottom:3px solid #F2F2F2;
+        width:50%;
+    }
+    .headerNavMenu[data-active=true]{
+        border-bottom-color: #0065FC;
+        border-top: 0px;
+    }
+    .headerNavMenu:hover{
+        border-bottom-color:#0065FC;
+        border-top: 0px;
+
+    }
+    .searchSubmitText{
+        display:none;
+    }
+    
+}
+@media screen and (min-width: 601px){
+    .header {
+        grid-template-columns: auto 1fr auto auto;
+        grid-template-areas: "logo . navbar button";
+  }
 }
 
 /*
@@ -221,6 +219,14 @@ SEARCH
   margin-right: 1rem;  
 }
 
+@media(max-width: 600px){
+    .fa-search{
+        display:inline;
+        opacity:1;
+        position:relative;
+    }
+}
+
 /*
 HOSTING
 */
@@ -324,7 +330,6 @@ HOSTING
         order:1; 
         margin:0px;
         width: 100%;
-    
     }
     .accomodationsMarseille{
         order:2;
