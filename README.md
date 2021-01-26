@@ -1,7 +1,7 @@
 # Reservia
 Turn Mock-ups into a web page:
 
-## Features: 
+## Features
 - Users will be able to search for accommodations in the city of their choice. Therefore, the search field is an input field, the text of which can be edited by the user. However, at this stage the search button will not be functional.
 - Each accommodation or activity card will have to be clickable in its entirety. For the moment, the links will be empty.
 - The filters will not be functional for this version; however, they must change their appearance when hovered over, I leave it up to you to decide the most appropriate effect.
@@ -13,7 +13,7 @@ Turn Mock-ups into a web page:
 - The icons come from the [Font Awesome Library](https://fontawesome.com/). The colors of the chart are blue #0065FC and its lighter version #DEEBFF, as well as grey for the background #F2F2
 - The site font is ["Raleway"](https://fonts.google.com/specimen/Raleway).
 
-## Instructions:
+## Instructions
 - Don't use a framework or a pre-compiler for this project.
 - Recommend using Visual Studio Code.
 - You can integrate Font Awesome icon in HTML and CSS. 
