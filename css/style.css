@@ -262,7 +262,7 @@ HOSTING
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
-    justify-content: space-between;
+    justify-content: center;
 }
 .linkMarseille{
     border-radius: 15px;
@@ -294,6 +294,7 @@ HOSTING
 .showMore{
     font-weight: bold;
     font-size:18px;
+    margin-top:30px;
 }
 .showMore:hover{
     color:#0065FC;
@@ -352,8 +353,7 @@ HOSTING
     .hostingMostPopularImagen{
         width:300px;
     }
-}
-    
+} 
 @media (max-width: 600px){
     .mostPopular {
         border-radius: 0px;
@@ -439,6 +439,7 @@ ACTIVITY
         height: 200px;
         width:100%;
     }
+}
 }
 
 /*
