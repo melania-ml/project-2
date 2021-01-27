@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @font-face {
-    {
 font-family : 'Raleway';
 font-style : normal;
 font-weight : 400;
 font-display : swap;
 src : url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
-}
 }
 
 * {
@@ -449,7 +447,6 @@ ACTIVITY
         height: 200px;
         width:100%;
     }
-}
 }
 
 /*
