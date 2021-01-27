@@ -269,7 +269,7 @@ HOSTING
 .rowHosting{
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    margin: 0px -15px;
     justify-content: center;
 }
 .linkMarseille{
