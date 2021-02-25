@@ -1,5 +1,5 @@
 # Reservia
-Turn Mock-ups into a web page
+Turn Mock-ups into a web page https://melania-ml.github.io/project-2/
 
 ## Features
 - Users will be able to search for accommodations in the city of their choice. Therefore, the search field is an input field, the text of which can be edited by the user. However, at this stage the search button will not be functional.
